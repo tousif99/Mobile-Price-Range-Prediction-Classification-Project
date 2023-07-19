@@ -59,3 +59,16 @@ Price_range - This is the target variable with value of3
 3(very high cost).
 
 Thus our target variable has 4 categories so basically it is a Multiclass classification problem.
+
+# Conclusions:
+
+We Started with Data understanding, data wrangling, basic EDA where we found the relationships, trends between price range and other independent variables.
+
+We selected the best features for predictive modeling by using K best feature selection method using Chi square statistic.
+
+Implemented various classification algorithms, out of which the SVM(Support vector machine) algorithm gave the best performance after hyper-parameter tuning with 98.3% train accuracy and 97 % test accuracy.
+
+XG boost is the second best good model which gave good performance after hyper-parameter tuning with 100% train accuracy and 92.25% test accuracy score.
+KNN gave very worst model performance.
+
+We checked for the feature importance's of each model. RAM, Battery Power, Px_height and px_width contributed the most while predicting the price range.
